@@ -1,0 +1,21 @@
+h1 {
+  color: cyan;
+}
+.backGround img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(8px);
+  opacity: 50%;
+  transform: scale(1.1);
+}
+
+.backGround {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
